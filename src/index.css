@@ -1,0 +1,30 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4d0612;
+  background: #f4f4f4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+
+html,
+body,
+#root {
+  width: 100%;
+  min-width: 393px;
+  height: 100%;
+  min-height: 852px;
+  margin: 0;
+}
+
+body {
+  overflow: auto;
+}
+
+button,
+input,
+textarea,
+select { font: inherit; }
